@@ -1,0 +1,128 @@
+header>h1 {
+    color: white;
+    font-family: Arial, serif;
+    text-align: center;
+    background-color: yellow;
+}
+
+tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: green;
+}
+
+h4 {
+    text-transform: uppercase;
+    color: red;
+}
+
+.neighbors {
+    border-left: 1px darkred;
+}
+
+.farmer {
+    border-left: 1px blue;
+}
+
+q {
+    font-size: 160%;
+    background-color: lightgray;
+    border-left: 3px dashed;
+    margin-left: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-style: italic;
+}
+
+p  {
+    letter-spacing: 2px;
+    font-family: Serif, serif;
+    color: darkslategrey;
+}
+
+a {
+    font-style: normal;
+}
+a:link {
+    color: darkslategrey;
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkred;
+}
+
+a:hover {
+    color: chartreuse;
+}
+
+#body{
+    background-color: blanchedalmond;
+    max-width: 90%;
+    margin: auto;
+}
+
+#header {
+    background-image: url("img/landscape2.jpeg");
+    background-size: cover;
+    display: block;
+    padding: 50px 50px;
+}
+
+a#download {
+    display: block;
+    text-align: center;
+    width: 100px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, serif;
+    border: 1px solid #fff;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+#GP{
+    text-align: center;
+    padding: 20px;
+}
+
+.picture{
+    width: 50px;
+    height: 50px;
+}
+
+#quote{
+    color: black;
+    text-align: center;
+    width: 45%;
+    margin: auto;
+    padding: 50px;
+    border: 2px solid black;
+    border-radius: 5%;
+    background-size: cover;
+}
+
+#Alan{
+    opacity: 0.2;
+    border-radius: 5%;
+}
+
+#dialog{
+    padding: 10px;
+    margin: auto;
+    width: 450px;
+}
+
+.notification{
+    background: yellow;
+    padding: 10px;
+    border:3px solid black;
+    width:150px;
+    font-weight:bold;
+    color: darkred;
+}
